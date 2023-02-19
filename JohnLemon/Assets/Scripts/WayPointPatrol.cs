@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class WaypointPatrol: MonoBehaviour
 {
     public NavMeshAgent navMeshAgent;
     public Transform[] waypoints;
